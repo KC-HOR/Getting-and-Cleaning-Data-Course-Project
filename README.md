@@ -1,3 +1,4 @@
+
 # Getting-and-Cleaning-Data-Course-Project
 The is the repo for the Peer Graded Assignment for John Hopkins University "Getting and Cleaning Data" Week 4 Course Project in Coursera
 
@@ -9,7 +10,8 @@ c) This Readme.md
 
 To use run_analysis.R, open it in RStudio and source the content. Run the function run_analysis(). This function will output a data frame and write the data frame to mean.txt. 
 
-A summary of what run_analysis.R does is as follows : 
+A summary of what run_analysis.R does is as follows :
+
 STEP ONE, load all testing ( X feature vectors, Y activity,subject ID), training ( X feature vectors, Y activity,subject ID) and feature names
 
 STEP TWO, row bind testing and training data; testing data above and training data below. Do this for all 3 data frames X, Y and subject ID
