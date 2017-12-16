@@ -22,7 +22,7 @@ STEP FOUR, column bind the 3 data frames in step three to form a single complete
 
 STEP FIVE, extract only the mean and standard deviation features. We make use of the grep() function and Regular Expression to filter out the column that we want
 
-STEP SIX, give the activities descriptive names ( in our case, it's column 2 of the complete data frame in step four)
+STEP SIX, give the elements of "Activity" feature vector descriptive names (i.e. WALKING, WALKING UPSTAIRS, WALKING DOWNSTAIRS etc. )
 
 STEP SEVEN, Create a new data frame containing the mean of each variable by activity, by subject.
 
